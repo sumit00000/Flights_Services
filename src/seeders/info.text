@@ -1,0 +1,15 @@
+use case of seeders-: when we are using any testing stuff then these seeders files are very important
+                       where we can start our database with 5, 10 seede basic values ex: let say there is a table
+                       that will never get new values  it only going to get a particular set of values, we can actually 
+                       prepares seeders for that.
+
+command to craete seeders:
+-->npx sequelize seed:generate --name add-airplane
+
+
+we can a command called as
+-->npx sequelize db:seed:all
+it will start seeding all of our seed files
+
+-->npx sequelize db:seed:undo:all
+it will revert the change or execute down function of seeders

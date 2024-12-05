@@ -1,0 +1,11 @@
+--now technically what we actually see here that we have a city model with use
+--controllers should not directly contact to models
+--services have business logig they do not have talk to any model
+--so who talks to models
+
+
+-->our repository talk to models thats why we write some bunch of code in our repository
+
+
+--nobodyelse will directly do a query
+--query related stuff is always inside in the repository
